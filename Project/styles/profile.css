@@ -1,0 +1,62 @@
+body {
+  min-height: 75rem; /* Can be removed; just added for demo purposes */
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  margin-bottom: 0;
+  color: #fff;
+  position: relative;
+  background-image:url("image/firstitem.jpg") no-repeat center;
+  background-size: cover;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+}
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron.container {
+  max-width: 40rem;
+}
+
+header.masthead{
+  background-color:#808080;
+}
+
+header.masthead.overlay {
+  position: absolute;
+
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+}
+
+img {
+  min-height: 300px; /* Can be removed; just added for demo purposes */
+  max-height: 300px;
+  min-width: 300px;
+  max-width: 300px;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #f7f7f7;
+}
+
+h3.titre{
+  padding-top:30px;
+  margin-top: 10px;
+}
